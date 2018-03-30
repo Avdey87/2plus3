@@ -38,5 +38,21 @@
         android:onClick="onClickIntent"
         android:layout_alignParentLeft="true" />
 
+    <Spinner
+        android:id="@+id/spinnerList"
+        android:entries="@array/countries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:text="TextView" />
+
 
 </RelativeLayout>

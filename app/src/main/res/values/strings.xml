@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">2plus3</string>
+    <string-array name="countries">
+        <item>Germany</item>
+        <item>Italia</item>
+        <item>Russia</item>
+
+    </string-array>
+
 </resources>
